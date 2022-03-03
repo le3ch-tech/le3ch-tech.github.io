@@ -5,17 +5,12 @@
 
     font-family: 'Archivo', sans-serif;
 
-    font-family: 'Cairo', sans-serif;
-
-    font-family: 'Nunito', sans-serif;
-
     font-family: 'Roboto', sans-serif;
-    color: #08081b
 
 **/
 
 :root {
-    --main-white: #f0f0f0;
+    --main-white: #f1f1f1;
     --main-red: #be3144;
     --main-blue: rgb(72, 99, 252);
     --main-gray: #303841;
