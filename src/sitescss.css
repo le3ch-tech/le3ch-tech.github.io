@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Cairo&family=Nunito:wght@500&family=Roboto&display=swap');
+
+/** 
+
+    font-family: 'Archivo', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+**/
+
+:root {
+    --main-white: #f1f1f1;
+    --main-red: #be3144;
+    --main-blue: rgb(72, 99, 252);
+    --main-gray: #303841;
+    --main-black: #08081b;
+  }
+  
+  /* Base reset */
+  * {
+    font-smooth: antialiased;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* box-sizing and font sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  /* 1200px / 16px = 75em */
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+  ::selection {
+    background-color: greenyellow;
+    color: #000;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-white);
+    box-shadow: 1px 4px  black;
+    z-index: 10;
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-decoration: none;
+  }
+  
+  .nav-list a:hover {
+    color: var(--main-blue);
+    font-weight: bold;
+  }
+
+  /* Projects section */
+  
+  .projects-section {
+    text-align: left;
+    padding: 10rem 5rem;
+    background: #fff;
+  }
+
+#projects li {
+    margin-bottom:  6.5rem;
+    font-size: 2.5rem;
+}
+
+#projects a {
+    color: var(--main-blue);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+#projects a:hover {
+    font-weight: bold;
+}
+
+#projects a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-blue);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    font-weight: bold;
+}
+
+#projects a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
