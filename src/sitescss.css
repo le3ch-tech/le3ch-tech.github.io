@@ -102,6 +102,10 @@
     font-weight: bold;
   }
 
+  nav ul li::marker {
+    color: transparent;
+  }
+
   /* Projects section */
   
   .projects-section {
