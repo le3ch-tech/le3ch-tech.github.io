@@ -6,7 +6,7 @@ Personal Portfolio & Simple Project Explorer
 
 ## Explorer
 
-Listed Projetcs and noteable things.
+Listed Projects and noteable things.
 
 ## For Issues: 
 
