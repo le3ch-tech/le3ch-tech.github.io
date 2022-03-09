@@ -59,8 +59,8 @@
   }
 
   ::selection {
-    background-color: greenyellow;
-    color: #000;
+    background-color: var(--main-blue);
+    color: #08081b;
   }
 
   .nav {
@@ -143,4 +143,11 @@
 #projects a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+p {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
 }

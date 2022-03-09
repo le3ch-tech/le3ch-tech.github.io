@@ -138,6 +138,14 @@
     color: var(--main-blue);
     font-weight: bolder;
   }
+
+  #nav-contact {
+    border-style: solid;
+    border-radius: 1px;
+    border-width: thick;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
   
   /* Welcome section */
   
