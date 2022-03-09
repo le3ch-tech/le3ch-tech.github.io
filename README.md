@@ -1,5 +1,13 @@
-# le3ch-tech.github.io
-===
-To-Do :: add multiple a href for more projects. 
-===
-To-Do :: media size control for .projects
+# Personal Portfolio
+
+[![Build Status](https://github.com/github/opensource.guide/workflows/GitHub%20Actions%20CI/badge.svg)](https://github.com/le3ch-tech/le3ch-tech.github.io/graphs/traffic)
+
+Personal Portfolio & Simple Project Explorer
+
+## Explorer
+
+Listed Projetcs and noteable things.
+
+## For Issues: 
+
+[![Build Status](https://img.shields.io/github/issues/le3ch-tech/cryptic-discord-bot?label=Issues)](https://github.com/le3ch-tech/le3ch-tech.github.io/issues)
