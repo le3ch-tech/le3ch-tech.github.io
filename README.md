@@ -11,7 +11,7 @@ Listed Projects and noteable things.
 ## Website
 
 Website is currently deployed: 
-[Click Here!](target="_blank", https://le3ch-tech.github.io/index.html)
+[Click Here!](https://le3ch-tech.github.io/index.html)
 
 ## For Issues : 
 
