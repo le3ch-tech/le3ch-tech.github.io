@@ -13,6 +13,6 @@ Listed Projects and noteable things.
 Website is currently deployed: 
 [Click Here!](https://le3ch-tech.github.io/index.html)
 
-## For Issues : 
+## For Issues: 
 
 [![Build Status](https://img.shields.io/github/issues/le3ch-tech/cryptic-discord-bot?label=Issues)](https://github.com/le3ch-tech/le3ch-tech.github.io/issues)
